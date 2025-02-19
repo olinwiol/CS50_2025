@@ -2,7 +2,7 @@
 My solutions to the problem sets and the project for CS50 2025.
 
 ## Problem Set 0 - Starting from Scratch
-Choosing my own adventure where the assignment is to 
+Choosing my own adventure where the assignment is to
 implement a project of my own choosing in Scratch.
 
 I've chosen the project I've named "Save the Dino Babys" where
@@ -18,4 +18,8 @@ complete the project and save the babies.
 
 
 
-## Problem Set 1 - *Work in progress* 
+## Problem Set 1 - Hello, World - Mario - Cash & Credit
+The first problem is to familiarize yourself in C by making a simple script printing
+the string "hello, world\n" to the console. This was achieved in the `folder` world and
+in the file `hello.c`.
+
