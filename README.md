@@ -9,7 +9,7 @@ I've chosen the project I've named "Save the Dino Babys" where
 as the main character 'Petra' you need to save all the Dino Babys
 who are falling from the sky.
 
-![image](https://github.com/olinwiol/CS50_2025/blob/main/Problem%20Set%200/Save%20The%20Dino%20Babys/5381feb0fc1b50ddc2793342daddffef.svg?raw=true)
+![image](https://github.com/olinwiol/CS50_2025/blob/main/Problem%20Set%200/Save%20The%20Dino%20Babys/5381feb0fc1b50ddc2793342daddffef.svg?raw=true)f
 
 Using different codeblocks with, `loops`, `if` and `while`-statements I could both
 complete the project and save the babies.
