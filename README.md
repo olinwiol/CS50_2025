@@ -29,3 +29,7 @@ Next part of the set is a problem called **Mario** which consists of creating th
     #####  #####
 
 Constructing of this pyramids consists of the users input of a height which transforms into a pyramid of that heigh. The contents of the `mario-less` directory makes an half of the pyramid whilst `mario-more` creates the whole pyramid.
+
+The last problem of the set is creating two different scripts, one for counting the least ammount of coins that a cashier needs to give back as change to a customer and validation of valid credit card numbers.
+
+The change counting was created by using the modulo-operator which is a common tool in most algoritms to calculate the remainder of a division. The credit card validation was med by conditionals checking different credit card patterns and an algorithm called [Luhn's Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
