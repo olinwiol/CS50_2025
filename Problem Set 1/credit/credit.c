@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <cs50.h>
+#include <stdbool.h>
 
 int firstDigit(long number)
 {
@@ -94,7 +94,9 @@ void checkCardType(long number)
 
 int main(void)
 {
-    long credit = get_long("Number: ");
+    long credit;
+    printf("Number: ");
+    scanf("%ld", &credit);
 
     checkCardType(credit);
 }

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <cs50.h>
 
 int pennies(int cash)
 {
@@ -37,7 +36,8 @@ int main(void)
     int cash;
     do
     {
-        cash = get_int("Change owed: ");
+        printf("Change owed: ");
+        scanf("%d", &cash);
     }
     while (cash < 0);
 

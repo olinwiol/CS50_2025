@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <cs50.h>
 
 void prow(int blocks, int spaces)
 {
@@ -19,7 +18,8 @@ int main(void)
     int height;
     do
     {
-        height = get_int("Height: ");
+        printf("Height: ");
+        scanf("%d", &height);
     }
     while (height < 1);
 
