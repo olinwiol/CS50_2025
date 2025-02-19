@@ -1,1 +1,10 @@
+
+// IDE folders & files
 .vscode
+
+// Compiled C files
+*.o
+*.out
+*.exe
+*.m
+*.
