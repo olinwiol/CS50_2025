@@ -21,5 +21,6 @@ complete the project and save the babies.
 ## Problem Set 1 - Hello, World - Mario - Cash & Credit
 The first problem is to familiarize yourself in C by making a simple script printing
 the string "hello, world\n" to the console. This was achieved in the `folder` world and
-in the file `hello.c`.
+in the file `hello.c`. After this simple task another script is hello is to be made where the user will be asked fo an input. Much like Adeles song [Hello](https://youtu.be/YQHsXMglC9A).
 
+Next part of the set is a problem called **Mario** which consists of
