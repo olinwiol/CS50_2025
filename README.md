@@ -33,3 +33,6 @@ Constructing of this pyramids consists of the users input of a height which tran
 The last problem of the set is creating two different scripts, one for counting the least ammount of coins that a cashier needs to give back as change to a customer and validation of valid credit card numbers.
 
 The change counting was created by using the modulo-operator which is a common tool in most algoritms to calculate the remainder of a division. The credit card validation was med by conditionals checking different credit card patterns and an algorithm called [Luhn's Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+
+## Problem Set 2 - Scrabble - Readability - Caesar ¥ Substitution
+The first problem is to create a light version of the popular board game Scrabble. The goal of the light version is two players input a word and relative to an array with points per letter and score the words accordingly making the player with the highest scoring word win.
