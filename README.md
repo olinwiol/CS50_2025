@@ -14,13 +14,18 @@ who are falling from the sky.
 Using different codeblocks with, `loops`, `if` and `while`-statements I could both
 complete the project and save the babies.
 
-### Hello, World
-
-
 
 ## Problem Set 1 - Hello, World - Mario - Cash & Credit
 The first problem is to familiarize yourself in C by making a simple script printing
 the string "hello, world\n" to the console. This was achieved in the `folder` world and
 in the file `hello.c`. After this simple task another script is hello is to be made where the user will be asked fo an input. Much like Adeles song [Hello](https://youtu.be/YQHsXMglC9A).
 
-Next part of the set is a problem called **Mario** which consists of
+Next part of the set is a problem called **Mario** which consists of creating the classic pyramid in the start of level 1-1 in Super Mario Bros. This pyramid consists of two adjecent halfpyramids made of blocks (example of a pyramid with a block height of 5)
+
+        #  #
+       ##  ##
+      ###  ###
+     ####  ####
+    #####  #####
+
+Constructing of this pyramids consists of the users input of a height which transforms into a pyramid of that heigh. The contents of the `mario-less` directory makes an half of the pyramid whilst `mario-more` creates the whole pyramid.
