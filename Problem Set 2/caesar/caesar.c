@@ -38,6 +38,7 @@ int main(int argc, char *argv[])
     if (argc != 2 || !only_digits(argv[1]))
     {
         printf("Usage: ./caesar key\n");
+        return 1;
     }
 
     int key = atoi(argv[1]);
@@ -47,4 +48,5 @@ int main(int argc, char *argv[])
     scanf("%s", plaintext);
     char* ciphertext = cipher_text(plaintext, key);
     printf("ciphertext: %s\n", ciphertext);
+    return 0;
 }
