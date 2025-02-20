@@ -34,5 +34,11 @@ The last problem of the set is creating two different scripts, one for counting 
 
 The change counting was created by using the modulo-operator which is a common tool in most algoritms to calculate the remainder of a division. The credit card validation was med by conditionals checking different credit card patterns and an algorithm called [Luhn's Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
 
-## Problem Set 2 - Scrabble - Readability - Caesar ¥ Substitution
+## Problem Set 2 - Scrabble - Readability - Caesar & Substitution
 The first problem is to create a light version of the popular board game Scrabble. The goal of the light version is two players input a word and relative to an array with points per letter and score the words accordingly making the player with the highest scoring word win.
+
+The second problem of the set is making a program that calculates a texts reading level grade. This grade gets calculated using the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman–Liau_index) grading the text between "Below Grade 1" and "Grade 16+".
+
+    index = 0.0588 * L - 0.296 * S - 15.8
+
+The third problem consists of
