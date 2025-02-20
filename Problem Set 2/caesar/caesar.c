@@ -23,11 +23,11 @@ char* cipher_text(char* text, int key)
         char c = text[i];
         if (isupper(c))
         {
-            text[i] = ((c - 'A' + key) % 26 + 26) % 26 + 'A';
+            text[i] = 'A' + (c - 'A' + key) % 26;
         }
         else if (islower(c))
         {
-            text[i] = ((c - 'a' + key) % 26 + 26) % 26 + 'a';
+            text[i] = 'a' + (c - 'a' + key) % 26;
         }
     }
     return text;
